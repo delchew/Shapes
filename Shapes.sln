@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesCommon", "ShapesCommon\ShapesCommon.csproj", "{851EF8B6-69F2-4E2F-8DAE-D81818F11BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesCommonTests", "ShapesCommonTests\ShapesCommonTests.csproj", "{A9250019-70BB-4F18-A8A3-9A3BB33D7375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLQuery", "SQLQuery", "{C3D7C0B6-30D7-4BD8-A3D2-BA5E5F336E8A}"
+	ProjectSection(SolutionItems) = preProject
+		SQLQuery.sql = SQLQuery.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{851EF8B6-69F2-4E2F-8DAE-D81818F11BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851EF8B6-69F2-4E2F-8DAE-D81818F11BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851EF8B6-69F2-4E2F-8DAE-D81818F11BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851EF8B6-69F2-4E2F-8DAE-D81818F11BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9250019-70BB-4F18-A8A3-9A3BB33D7375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9250019-70BB-4F18-A8A3-9A3BB33D7375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9250019-70BB-4F18-A8A3-9A3BB33D7375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9250019-70BB-4F18-A8A3-9A3BB33D7375}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A675D7-276E-4793-A3E5-F1E1B3930EDE}
+	EndGlobalSection
+EndGlobal
